@@ -11,9 +11,55 @@
     --primary-font-size: 14px;
     --secondary-font-size: 16px;
 }
-/*header*/
+body{
+    font-size: var(--primary-font-size);
+}
+.content{
+   
+    margin: 0 auto;
+}
 
-/*section header*/
+/*header*/
+.header{
+    background-color: #FFFFFF;
+    padding: 0 0 0 0;
+    display: flex;
+    align-items: center;
+}
+.webstudio{ 
+    color: var(--primary-color);
+    font-family: var(--secondary-font);
+    font-weight: var(--bold-font);
+    font-size: 26px;
+    margin-left: 215px;
+}
+.web{
+    color: var(--accent-color);
+}
+.menu{
+    margin-left: 93px;
+    margin-right: 331px;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+}
+.menu-item{
+    margin-right: 50px;
+}
+.menu-link{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: var(--medium-font);
+    margin-right: 50px;
+}
+.contacts{
+    margin-right: 215px;
+}
+
+
+/*section service*/
 /*section advantages*/
 /*section description*/
 /*section team*/
